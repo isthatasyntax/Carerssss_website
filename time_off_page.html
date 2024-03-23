@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Off </title>
+    <link rel="stylesheet" href="time_off_page_stylesheet.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="topnav">
+            <a>*website name*</a>
+            <a href="home_page.php">Home</a>
+            <a href="schedule_page.php">Schedule</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">*username*</button>
+                <div class="dropdown-content">
+                    <a href="my_profile_page.html">My Profile</a>
+                    <a href="help_policies_page.html">Help</a>
+                    <a href="time_off_page.html">Time Off</a>
+                    <a href="logout.php">Sign Out</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <form>
+            <h1>Request Leave</h1>
+            <h2>Leave type</h2>
+            <div class="select">
+                <select name="format" id="format">
+                    <option selected disabled>Choose a book format</option>
+                    <option value="Vacation">Vacation</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Sick">Sick</option>
+                </select>
+            </div>
+            <input type="date" id="From" placeholder="From" required="">
+            <input type="date" id="To" placeholder="To" required="">
+            <h4>Reason for Leave...</h4>
+            <textarea required=""></textarea>
+            <input type="submit" value="Send" id="button">
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wghtt@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(187, 185, 185);
+
+}
+
+.wrapper {
+    width: 450px;
+    height: 280px;
+    background: rgb(171, 171, 180);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 35px;
+    background: inherit;
+    margin: 10px 0;
+
+}
+
+.input-box input {
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px 15px 20px;
+    background: rgb(248, 248, 248);
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 35px;
+
+}
+
+.input-box input::placeholder {
+
+    color: rgb(59, 58, 58);
+}
+
+.wrapper .remember-forgotten {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 3px 0 15px;
+
+}
+
+.remember-forgotten label input {
+    accent-color: rgb(63, 41, 122);
+    margin-right: 3px;
+
+
+}
+
+.remember-forgotten a {
+    color: #365bd4;
+    text-decoration: none;
+}
+
+.remember-forgotten a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 17px;
+    color: #333;
+    font-weight: 500;
+}
